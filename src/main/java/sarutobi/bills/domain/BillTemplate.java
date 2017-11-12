@@ -7,7 +7,7 @@ import java.util.List;
  * Project: bills
  * Created by sarutobi at 12.11.17.
  */
-public class BillTemplate {
+public final class BillTemplate {
     private int id;
     private String templateName;
     private String billName;
@@ -43,5 +43,10 @@ public class BillTemplate {
 
     public void setRowName(List<String> rowName) {
         this.rowName = rowName;
+    }
+
+    @Override
+    public String toString() {
+        return templateName;
     }
 }

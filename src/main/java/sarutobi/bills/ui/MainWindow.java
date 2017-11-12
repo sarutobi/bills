@@ -1,6 +1,9 @@
 package sarutobi.bills.ui;
 
+import sarutobi.bills.ui.template.TemplatePanel;
+
 import javax.swing.*;
+import java.awt.*;
 
 /**
  * Project: bills
@@ -12,5 +15,7 @@ public class MainWindow extends JFrame {
         super("Контроль счетов ЖКУ");
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setVisible(true);
+        add(new TemplatePanel(), BorderLayout.CENTER);
+        pack();
     }
 }

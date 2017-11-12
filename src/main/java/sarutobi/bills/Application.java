@@ -8,7 +8,7 @@ import javax.swing.*;
  * Project: bills
  * Created by sarutobi at 12.11.17.
  */
-public class Application {
+public final class Application {
     public static void main(String... args) {
         new Application();
     }

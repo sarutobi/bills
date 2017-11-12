@@ -9,7 +9,7 @@ import java.awt.*;
  * Project: bills
  * Created by sarutobi at 12.11.17.
  */
-public class MainWindow extends JFrame {
+public final class MainWindow extends JFrame {
 
     public MainWindow() {
         super("Контроль счетов ЖКУ");

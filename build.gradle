@@ -13,5 +13,10 @@ repositories {
 }
 
 dependencies {
-
+    //Storage
+    compile 'org.flywaydb:flyway-core:4.0.3'
+    compile 'com.h2database:h2:1.4.196'
+    compile "org.mybatis:mybatis:3.4.5"
+    // Testing
+    testCompile 'junit:junit:4.12'
 }
